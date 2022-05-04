@@ -1,9 +1,10 @@
 # YOLOv5 🚀 by Ultralytics, GPL-3.0 license
 
 # Parameters
-nc: 6  # number of classes
+nc: 8  # number of classes
 depth_multiple: 0.33  # model depth multiple
 width_multiple: 0.50  # layer channel multiple
+# 下面没改
 anchors:
   - [10,13, 16,30, 33,23]  # P3/8
   - [30,61, 62,45, 59,119]  # P4/16
